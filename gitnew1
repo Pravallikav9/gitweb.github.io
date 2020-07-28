@@ -1,31 +1,19 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>The Login Form</title>
-</head>
 <body>
-    <div class="wrap">
-        <form class="login-form" action="">
-            <div class="form-header">
-                <h3>Login Form</h3>
-                <p>Login to access your dashboard</p>
-            </div>
-            <!--Email Input-->
-            <div class="form-group">
-                <input type="text" class="form-input" placeholder="email@example.com">
-            </div>
-            <!--Password Input-->
-            <div class="form-group">
-                <input type="password" class="form-input" placeholder="password">
-            </div>
-            <!--Login Button-->
-            <div class="form-group">
-                <button class="form-button" type="submit">Login</button>
-            </div>
-            <div class="form-footer">
-            Don't have an account? <a href="#">Sign Up</a>
-            </div>
-        </form>
-    </div><!--/.wrap-->
-</body>
+
+<h2>login form</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+</form> 
 </html>
